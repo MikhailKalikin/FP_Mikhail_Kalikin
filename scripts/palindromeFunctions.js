@@ -39,18 +39,18 @@ function palin (possiblePalin) {
         console.log(firstHalf); // . . .these line are not. . .
         console.log(reverseSecondHalf); // . . .necessary for the end result
             if (firstHalf.join() == reverseSecondHalf.join()) {
-                console.log(`${word.join("")} IS a palindrome.`);
-                showResult.innerHTML = `${word.join("")} palindrome.`;
+                console.log(`${word.join("")} IS a палиндром.`);
+                showResult.innerHTML = `${word.join("")} палиндром.`;
                 body.backgroundColor = "green";             
             } else if (firstHalf.join() != reverseSecondHalf.join()) {
                 reverseSecondHalf.pop();
                     if (firstHalf.join() == reverseSecondHalf.join()) {
-                    console.log(`${word.join("")} palindrome.`);
-                    showResult.innerHTML = `${word.join("")} IS a palindrome.`;
+                    console.log(`${word.join("")} палиндром.`);
+                    showResult.innerHTML = `${word.join("")} IS a палиндром.`;
                     body.backgroundColor = "green";                    
                     } else {
                     console.log(`${word.join("")} Не палидром.`);
-                    showResult.innerHTML = `${word.join("")} is NOT a palindrome.`;
+                    showResult.innerHTML = `${word.join("")} is NOT a палиндром.`;
                     body.backgroundColor = "red";                    
                     }
             }            
@@ -65,18 +65,18 @@ function palin (possiblePalin) {
         console.log(firstHalf); // . . .these line are not. . .
         console.log(reverseSecondHalf); // . . .necessary for the end result
             if (firstHalf.join() == reverseSecondHalf.join()) {
-                console.log(`${word.join("")} palindrome.`);
-                showResult.innerHTML = `${word.join("")} palindrome.`;
+                console.log(`${word.join("")} палиндром.`);
+                showResult.innerHTML = `${word.join("")} палиндром.`;
                 body.backgroundColor = "green";               
             } else if (firstHalf.join() != reverseSecondHalf.join()) {
                 reverseSecondHalf.pop();
                     if (firstHalf.join() == reverseSecondHalf.join()) {
-                    console.log(`${word.join("")} palindrome.`);
-                    showResult.innerHTML = `${word.join("")} palindrome.`;
+                    console.log(`${word.join("")} палиндром.`);
+                    showResult.innerHTML = `${word.join("")} палиндром.`;
                     body.backgroundColor = "green";  
                     } else {
-                    console.log(`${word.join("")} Not palindrome.`);
-                    showResult.innerHTML = `${word.join("")} Not palindrome.`;
+                    console.log(`${word.join("")} Не палидром.`);
+                    showResult.innerHTML = `${word.join("")} Не палидром.`;
                     body.backgroundColor = "red";                   
                     }
             }           
@@ -91,18 +91,18 @@ function palin (possiblePalin) {
         console.log(firstHalf); // . . .these line are not. . .
         console.log(reverseSecondHalf); // . . .necessary for the end result
             if (firstHalf.join() == reverseSecondHalf.join()) {
-                console.log(`${word.join("")}  palindrome.`);
-                showResult.innerHTML = `${word.join("")} palindrome.`;
+                console.log(`${word.join("")}  палидром.`);
+                showResult.innerHTML = `${word.join("")} палидромe.`;
                 body.backgroundColor = "green";                
             } else if (firstHalf.join() != reverseSecondHalf.join()) {
                 reverseSecondHalf.pop();
                     if (firstHalf.join() == reverseSecondHalf.join()) {
-                    console.log(`${word.join("")} IS a palindrome.`);
-                    showResult.innerHTML = `${word.join("")} palindrome.`;
+                    console.log(`${word.join("")} палидром.`);
+                    showResult.innerHTML = `${word.join("")}палидром.`;
                     body.backgroundColor = "green";                   
                     } else {
-                    console.log(`${word.join("")} is NOT a palindrome.`);
-                    showResult.innerHTML = `${word.join("")} Not palindrome.`;
+                    console.log(`${word.join("")} Не палидром.`);
+                    showResult.innerHTML = `${word.join("")} Не палидром.`;
                     body.backgroundColor = "red";
                     }
             }    
