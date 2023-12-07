@@ -1,3 +1,23 @@
+<template>
+  <home-view/>
+</template>
+
+<script>
+import HomeView from "@/Views/HomeView.vue";
+
+export default {
+  name: 'App',
+  components: {HomeView}
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -91,3 +111,5 @@ label {
 legend {
   display: block;
 }
+
+</style>
