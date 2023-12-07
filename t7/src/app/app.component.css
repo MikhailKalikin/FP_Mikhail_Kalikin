@@ -1,0 +1,16 @@
+
+.app {
+  padding: 50px;
+}
+
+.input {
+  margin-right: 20px;
+}
+
+.img {
+  width: 400px;
+}
+
+.error {
+  color: red;
+}
