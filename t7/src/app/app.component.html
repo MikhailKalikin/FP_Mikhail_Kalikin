@@ -1,0 +1,27 @@
+
+<div class="app">
+  <div class="weather">
+    <div>
+      <input class="input" type="text" placeholder="Введите город" autocomplete="off" [(ngModel)]="city">
+      <button (click)="searchLocation()">Получит погоду</button>
+    </div>
+    <div>
+      <div *ngIf="locationIsLoading"> Загрузка информации о городе ... </div>
+    </div>
+    <div>
+      <div *ngIf="weatherIsLoading"> Загрузка погоды ... </div>
+      <div *ngIf="weatherDto" class="weather__listing">
+        <p><span>Погода:</span><b>{{weatherDto.description}}</b></p>
+        <p><span>Температура:</span><b>{{weatherDto.temp}}</b></p>
+        <p><span>Ощущается как:</span><b>{{weatherDto.feelsLike}}</b></p>
+        <p><span>Скорость ветра:</span><b>{{weatherDto.windSpeed}}</b></p>
+        <p><span>Влажность:</span><b>{{weatherDto.humidity}}</b></p>
+      </div>
+    </div>
+    <div>
+      <div *ngIf="imageIsLoading"> Загрузка картинки ... </div>
+      <img class="img" *ngIf="image" [src]="image">
+    </div>
+    <div class="error" *ngIf="error"> {{error}}</div>
+  </div>
+</div>
